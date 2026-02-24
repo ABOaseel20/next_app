@@ -1,0 +1,30 @@
+body {
+    font-family: Tahoma;
+    padding-top: 70px;
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 128, 0, 0.6), rgba(0, 128, 0, 0.6)), url('https://images.unsplash.com/photo-1529336953121-ad5a0d43d0d0') center/cover no-repeat;
+}
+
+.service-card {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 24px;
+    padding: 12px 16px;
+    border-radius: 50%;
+    z-index: 1000;
+}
